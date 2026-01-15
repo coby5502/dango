@@ -41,7 +41,7 @@ public struct WordEditorView: View {
                         .font(.system(size: 13, weight: .semibold))
                         .foregroundStyle(.secondary)
                     
-                    TextField("읽는 방법 (선택사항)", text: $viewModel.reading)
+                    TextField("읽는 방법", text: $viewModel.reading)
                         .textFieldStyle(.plain)
                         .font(.system(size: 16, weight: .regular))
                         .padding(14)
